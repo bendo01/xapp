@@ -1,0 +1,43 @@
+New log file opened at Mon Apr 10 15:16:23 WITA 2017 by 24260@Bennys-iMac.local
+Taking next connection to: 49822
+New client attempting to connect on port: 49823-49822
+  Address = /192.168.8.101:49822
+This client on port 49823 has uuid 43c9d4a6-cdd8-4130-bfd8-1bc96454c336 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-43c9d4a6-cdd8-4130-bfd8-1bc96454c336
+Taking next connection to: 49822
+New client attempting to connect on port: 49824-49822
+  Address = /192.168.8.101:49822
+Handshake exception on socket: 49824
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 49822
+New client attempting to connect on port: 49825-49822
+  Address = /192.168.8.101:49822
+This client on port 49825 has uuid 7245bcef-b89e-4d8e-9fe5-2e46e59af9b0 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-43c9d4a6-cdd8-4130-bfd8-1bc96454c336, activator-7245bcef-b89e-4d8e-9fe5-2e46e59af9b0
+Taking next connection to: 49822
+New client attempting to connect on port: 49831-49822
+  Address = /192.168.8.101:49822
+Handshake exception on socket: 49831
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 49822
+New client attempting to connect on port: 49832-49822
+  Address = /192.168.8.101:49822
+This client on port 49832 has uuid 3853da18-19e8-4ded-9ffb-ef2a1770a4d4 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-7245bcef-b89e-4d8e-9fe5-2e46e59af9b0, play-fork-run-3853da18-19e8-4ded-9ffb-ef2a1770a4d4
+Taking next connection to: 49822
